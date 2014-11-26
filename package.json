@@ -1,0 +1,32 @@
+{
+	"name": "async-validation",
+	"version": "0.1.0",
+	"description": "Simple asynchronous validation for Node.js",
+	"homepage": "https://github.com/kminek/async-validation",
+	"author": "Grzesiek W <kontakt@kminek.pl> (http://www.kminek.pl/)",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/mocha --reporter spec"
+	},
+	"dependencies": {
+		"underscore": "*",
+		"async": "0.9.x"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kminek/async-validation"
+	},
+	"keywords": [
+		"validation",
+		"asynchronous",
+		"node"
+	],
+	"bugs": {
+		"url": "https://github.com/kminek/async-validation/issues"
+	}
+}
